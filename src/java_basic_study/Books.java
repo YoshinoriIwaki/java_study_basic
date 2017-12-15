@@ -21,7 +21,7 @@ class Book {
 public class Books {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
+
 		Book book = new Book("sample book", 2000);
 		book.num = 5;
 		book.print();

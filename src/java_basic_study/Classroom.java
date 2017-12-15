@@ -65,7 +65,7 @@ class Student{
 public class Classroom {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
+
 		Student taro = new Student(10, "taro", 3);
 		taro.test[0].setPoint("Japanese", 95);
 		taro.test[1].setPoint("Math", 83);

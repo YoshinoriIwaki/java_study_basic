@@ -1,6 +1,6 @@
 package java_basic_study;
 
-class BookExtends{
+class BookKind{
 	String title;
 	String genre;
 
@@ -10,19 +10,19 @@ class BookExtends{
 	}
 }
 
-class Novel extends BookExtends{
+class Novel extends BookKind{
 	String writer;
 
-	void printNov() {
+	void printNovel() {
 		printBook();
 		System.out.println("writer:" + writer);
 	}
 }
 
-class Magazine extends BookExtends{
+class Magazine extends BookKind{
 	int day;
 
-	void printMag() {
+	void printMagazine() {
 		printBook();
 		System.out.println("sale day:" + day + "day");
 	}
@@ -31,18 +31,19 @@ class Magazine extends BookExtends{
 public class Bookshelf {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
-		Novel nov = new Novel();
-		nov.title = "book_title";
-		nov.genre = "genre1";
-		nov.writer = "writer1";
-		Magazine mag = new Magazine();
-		mag.title = "title1";
-		mag.genre = "genre2";
-		mag.day = 20;
-		nov.printNov();
-		System.out.println();
-		mag.printMag();
-	}
+		// TODO Auto-generated method stub
+		Novel novel = new Novel();
+		novel.title = "title";
+		novel.genre = "fantasy";
+		novel.writer = "ank";
 
+		Magazine magazine = new Magazine();
+		magazine.title = "title2";
+		magazine.genre = "computer";
+		magazine.day = 20;
+
+		novel.printNovel();
+		System.out.println();
+		magazine.printMagazine();
+	}
 }

@@ -28,7 +28,7 @@ class Cat {
 public class Pet {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
+	
 		Cat cat1 = new Cat();
 		Cat cat2 = new Cat();
 		Cat cat3 = new Cat();

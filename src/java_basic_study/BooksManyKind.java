@@ -23,7 +23,6 @@ class BookManyKind{
 public class BooksManyKind {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
 		BookManyKind book1 = new BookManyKind("sample1", "writer1");
 		book1.print();
 		BookManyKind book2 = new BookManyKind(book1);

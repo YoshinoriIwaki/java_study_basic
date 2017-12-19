@@ -1,0 +1,6 @@
+cat
+aaa
+dog
+bbb
+rabbit
+ccc

@@ -1,4 +1,4 @@
-package java_basic_study.jar_test;
+//package java_basic_study.jar_test;
 
 public class Bye {
 	void bye() {
